@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/plaingray">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="312dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/minus" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="158dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="336dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Type a number"
+        android:inputType="textPersonName" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="385dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/plus" />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="158dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="338dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Type a number"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="322dp"
+        android:layout_height="187dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="525dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Quick Calculator"
+        android:textColor="#1BD5B8"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+</RelativeLayout>
